@@ -10,6 +10,10 @@ import java.util.stream.Collectors;
 public class RemoveDuplicatesFromList {
 	static List<Integer> intList;
 	public static void main(String[] args) {
+		/*
+		 * This program will work for any type of list,
+		 * ex: int,string,...
+		 */
 		intList=new ArrayList<Integer>(Arrays.asList(0,1,2,2,3,4,5,5,6));
 		System.out.println("Before Sorting:");
 		for(Integer i:intList)

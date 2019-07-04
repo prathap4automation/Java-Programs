@@ -7,8 +7,7 @@ public class RemoveSpecifiedCharacterFromString {
 		 * Remove all spaces from below string 
 		 */
 		String str="this is my input string";
-		System.out.println("Given String: "+str);
-		System.out.println("modified String: "+str.replaceAll(" ", ""));
+		System.out.println("modified String: "+str.replace(" ", ""));
 	}
 
 }
